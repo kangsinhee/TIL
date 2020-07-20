@@ -1,12 +1,12 @@
 # REST API
 
 - [REST API](#rest-api)
-  * [REST란?](#rest--)
-  * [REST 특징](#rest---)
-  * [REST 구성](#rest---)
-  * [REST API 설계 규칙](#rest-api------)
-      - [대표적으로 사용하는 네 가지 Method](#----------------method)
-  * [REST API 장단점](#rest-api----)
+  * [REST란?](#rest란?)
+  * [REST 특징](#rest-특징)
+  * [REST 구성](#rest-구성)
+  * [REST API 설계 규칙](#rest-api-설계-규칙)
+      - [대표적으로 사용하는 네 가지 Method](#대표적으로-사용하는-네-가지-Method)
+  * [REST API 장단점](#rest-api-)
   
 ## REST란?
 
