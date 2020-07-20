@@ -64,7 +64,7 @@ REST API의 등장은 2000년도에 http의 주요 저자 중 한 사람인 로�
 POST /post/put/:id			X
 POST /post/update/:id		X
 
-PUT /post/:id 				O
+PUT /post/:id 				  O
 ```
 
 
