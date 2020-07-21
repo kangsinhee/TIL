@@ -1,7 +1,13 @@
 # REST API
 
-[TOC]
-
+- [REST API](#rest-api)
+  * [REST란?](#rest란?)
+  * [REST 특징](#rest-특징)
+  * [REST 구성](#rest-구성)
+  * [REST API 설계 규칙](#rest-api-설계-규칙)
+      - [대표적으로 사용하는 네 가지 Method](#대표적으로-사용하는-네-가지-Method)
+  * [REST API 장단점](#rest-api-)
+  
 ## REST란?
 
 REST API의 REST는 **Representatuonal State Transfer**의 약자로 소프트웨어 프로그램 아키텍처의 한 형식임
@@ -61,10 +67,10 @@ REST API의 등장은 2000년도에 http의 주요 저자 중 한 사람인 로�
 > 예를 들어 글을 수정하기 위해 아래와 같이 할 수 있다.
 
 ```
-POST /post/put/:id			X
-POST /post/update/:id		X
+POST /post/put/:id			  X
+POST /post/update/:id	                  X
 
-PUT /post/:id 				O
+PUT /post/:id 				  O
 ```
 
 
