@@ -1,6 +1,6 @@
 # URL, URI 정리
 
-<img src="C:\Users\kangsinhee\AppData\Roaming\Typora\typora-user-images\image-20200721143515792.png" alt="image-20200721143515792" style="zoom: 67%;" />
+
 
 > 여기서는 URI와 URL만 다룬다.
 
