@@ -1,6 +1,6 @@
 # URL, URI 정리
 
-<img src="..\URL, URI\image\1.png" alt="1" style=": width="40%;" />
+<img src="..\URL, URI\image\1.png"/>
 
 > 여기서는 URI와 URL만 다룬다.
 
