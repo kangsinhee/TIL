@@ -1,6 +1,6 @@
 # URL, URI 정리
 
-<img src="C:\Users\kangsinhee\Desktop\programming\Study_Backend\URL, URI\image\1.png" alt="1" style="zoom:50%;" />
+<img src="..\URL, URI\image\1.png" alt="1" style="zoom:50%;" />
 
 > 여기서는 URI와 URL만 다룬다.
 
