@@ -12,9 +12,7 @@
 
 *TDD 프로세스*
 
-
-
-
+![TDD 순환도](https://d2uleea4buiacg.cloudfront.net/files/cdf/cdf3ae0a6ca574c036ba35e3957f100d7d77bb6e4eed91ccb065838441188266.m.png)
 
 ----
 
