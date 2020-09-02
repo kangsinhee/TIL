@@ -22,6 +22,8 @@ USE (디비 명) : 사용할 디비 교체
 
 Select (필요한 컬럼 or *(All)) (from (테이블 명)) (where (조건) ) ; 컬럼 조회
 
+order by (컬럼) (desc, asc)
+
 show  (tables / databases);
 
 create (table / database) (이름) (
