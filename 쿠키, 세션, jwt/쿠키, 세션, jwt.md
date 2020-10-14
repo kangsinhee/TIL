@@ -86,7 +86,7 @@
 
    -> Refresh 토큰으로 피해를 줄일 수 있음
 
-   ![img](C:\Users\kangsinhee\Desktop\programming\Study_Backend\쿠키, 세션, jwt\1)
+   ![img](C:\Users\kangsinhee\Desktop\programming\Study_Backend\쿠키, 세션, jwt\1.png)
 
    
 
