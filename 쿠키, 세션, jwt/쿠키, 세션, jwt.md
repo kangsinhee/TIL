@@ -88,9 +88,13 @@
 
    ![img](C:\Users\kangsinhee\Desktop\programming\Study_Backend\쿠키, 세션, jwt\1.png)
 
-   
+   #### JWT Token Claim 항목
 
-   
+   * `iss`: 토큰을 발급한 발급자(Issuer)
 
-
-
+   - `sub`: Claim의 주제(Subject)로 토큰이 갖는 문맥을 의미한다.
+   - `aud`: 이 토큰을 사용할 수신자(Audience)
+   - `exp`: 만료시간(Expiration Time)은 만료시간이 지난 토큰은 거절해야 한다.
+   - `nbf`: Not Before의 의미로 이 시간 이전에는 토큰을 처리하지 않아야 함을 의미한다.
+   - `iat`: 토큰이 발급된 시간(Issued At)
+   - `jti`: JWT ID로 토큰에 대한 식별자이다.
