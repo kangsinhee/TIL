@@ -31,7 +31,7 @@
 
 ### @Configuration
 
-**@Configureation** 어노테이션은 스프링 IOC 컨테이너에게 해당 클래스를 Bean 구성 클래스임을 알려주는 것
+스프링 IOC 컨테이너에게 해당 클래스를 Bean 구성 클래스임을 알려줌
 
 > Bean이란 
 > 클래스로 인스턴스를 요청받을때 마다 생성하면 자원 낭비이므로 클래스를 서버 실행시 한번만 생성해서 컨테이너에 등록함 여기서 등록된 클래스로 만든 인스턴스를 Bean이라 함
@@ -95,9 +95,13 @@ Student 객체의 경우 생성자에서 ArrayList를 주입 받도록 코드를
 
 #### 2. @Component
 
- **@Component**는 개발자가 직접 작성한 Class를 Bean으로 등록하기 위한 어노테이션이다.
+ **@Component**는 개발자가 직접 작성한 Class를 Bean으로 등록하기 위한 어노테이션임
+ **@Service, @Repository**등의  어노테이션에 선언되어 있음
 
-  
+* **@Service**
+  서비스 레이어, 내부 로직을 처리함
+* **@Repository** 
+  퍼시스턴스(데이터 처리 담당) 레이어, DB나 파일 같은 외부 I/O를 처리함
 
 ```kotlin
 @Component
@@ -108,7 +112,7 @@ class Stuent {
 }
 ```
 
-Student Class는 개발자가 사용하기 위해서 직접 작성한 클래스, 이 Class를 Bean으로 등록하기 위해 **@Component**어노테이션을 사용했음
+*Student Class는 개발자가 사용하기 위해서 직접 작성한 클래스, 이 Class를 Bean으로 등록하기 위해 **@Component**어노테이션을 사용했음*
 
 
 
@@ -122,6 +126,8 @@ class Stuent {
 ```
 
 **@Bean**어노테이션은 name이라는 값을 사용했지만 **@Component**어노테이션은 value값이 Bean id로 사용됨 **@Component**어노테이션도 추가 정보가 없다면 class의 이름을 CamelCase로 변경해 Bean id로 사용됨
+
+
 
 ---
 
