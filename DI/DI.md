@@ -29,16 +29,16 @@
 
 ----
 
-### @Configuration
+### @SpringBootApplication - @Configuration
 
 스프링 IOC 컨테이너에게 해당 클래스를 Bean 구성 클래스임을 알려줌
 
-> Bean이란 
+> **Bean❔**
 > 클래스로 인스턴스를 요청받을때 마다 생성하면 자원 낭비이므로 클래스를 서버 실행시 한번만 생성해서 컨테이너에 등록함 여기서 등록된 클래스로 만든 인스턴스를 Bean이라 함
 
 ---
 
-### @Bean & @Component 차이점
+### @Bean & @Component
 
 **@Bean**과 **@Component** 어노테이션 모두 Spring IoC 컨테이너에 Bean을 등록하도록 하는 메타데이터를 기입하는 어노테이션임
 
@@ -56,7 +56,8 @@ class Application {
 }
 ```
 
-ArrayList같은 라이브러리등을 Bean으로 등록하기 위해서는 별도로 해당 라이브러리 객체를 반환하는 Method를 만들고 **@Bean** 어노테이션을 붙혀줘야함 위의 경우 **@Bean** 어노테이션에 아무런 이름도 지정하지 않았으므로 Method 이름을 **CamelCase**로 변경한 것이 Bean id로 등록됨(위 경우에선 myArray가 Bean id가 됨)
+ArrayList같은 라이브러리등을 Bean으로 등록하기 위해서는 별도로 해당 라이브러리 객체를 반환하는 Method를 만들고 **@Bean** 어노테이션을 붙혀줘야함 위의 경우 
+**@Bean** 어노테이션에 아무런 이름도 지정하지 않았으므로 Method 이름을 **CamelCase**로 변경한 것이 Bean id로 등록됨(위 경우에선 myArray가 Bean id가 됨)
 
 
 
