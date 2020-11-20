@@ -1,46 +1,10 @@
 ### DATABASE
 
----
 
-> .
 
-> cmd mysql 접속
->
 > mysql -u root -p
 >
 > : password
-
-
-
-#### SQL문
-
----
-
-DESC (테이블 명) : 테이블의 각 컬럼과 각 속성들을 보여줌
-
-USE (디비 명) : 사용할 디비 교체
-
-Select (필요한 컬럼 or *(All)) (from (테이블 명)) (where (조건) ) ; 컬럼 조회
-
-order by (컬럼) (desc, asc)
-
-show  (tables / databases);
-
-create (table / database) (이름) (
-
-​	[컬럼이름] [자료형] [테이블 속성]
-
-);
-
-drop (table/database) (이름);
-
-insert into (테이블 명) (value / values) (순서대로 값);
-
-update (테이블 명) set (컬럼) = '값' where (조건);
-
-delete from (테이블 명) where 조건; 
-
-alter table (테이블 명) auto_increment=(시작할 값)
 
 #### 테이블 속성
 
