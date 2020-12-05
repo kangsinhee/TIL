@@ -82,7 +82,7 @@ Mybatis라는 모듈을 통해 이 JDBC를 사용하기 쉽게 만들어 줌
 
 * 반복적인 작업이 반복됨
 
-![overall_design](.\overall_design.png)
+<img src=".\overall_design.png" alt="1" />
 
 ### Reference
 
