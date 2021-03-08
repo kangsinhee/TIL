@@ -115,3 +115,7 @@ goSchool이라는 함수가 코루틴이기 때문에 wakeUp을 만나면 wakeUp
 
 결론적으로는 비동기처리에 있어서 Coroutine은 Rx나 다른 방법과 견줄 수 없을정도로 간편함.
 비동기코드이지만 동기코드처럼 짤 수 있기 때문이라고 할 수 있음
+
+### Reference
+
+https://wooooooak.github.io/kotlin/2019/08/25/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-%EA%B0%9C%EB%85%90-%EC%9D%B5%ED%9E%88%EA%B8%B0/
