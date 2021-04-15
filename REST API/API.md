@@ -1,10 +1,10 @@
-## API
+## API란?
 
-#### API
+#### API(Application interface)
 
 API는 프로그램들이 서로 상호작용하는 것을 도와주는 매개체 
 
-<img src="..\API\API와 EndPoint.jpg" />
+<img src="..\REST API\API와 EndPoint.jpg" />
 
 점원은 손님에게 메뉴를 알려주고, 요리사에게 주문받은 요리를 요청, 그 다음 완성된 요리를 손님께 다시 전달함
 *API는 점원과 같은 역할*
