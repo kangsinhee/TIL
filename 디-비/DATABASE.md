@@ -1,6 +1,6 @@
 ### DATABASE
 
-
+> 걍 내가 볼라고
 
 > mysql -u root -p
 >
