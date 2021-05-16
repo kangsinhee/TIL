@@ -1,4 +1,4 @@
-## Kotlin의 Unit과 Nothing Type
+## Unit & Nothing Type in Kotlin
 
 > 코틀린에서는 데이터와 관계없이 상황을 표현하기 위한 Unit과 Nothing이라는 타입을 제공함
 

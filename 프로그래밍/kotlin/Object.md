@@ -1,4 +1,4 @@
-## Object vs Class
+## Object vs Class in Kotlin
 
 object 키워드는 다음과 같은 경우에 사용됨
 
