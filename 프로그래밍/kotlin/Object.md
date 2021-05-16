@@ -1,6 +1,6 @@
 ## Object vs Class in Kotlin
 
-object 키워드는 다음과 같은 경우에 사용됨
+`object` 키워드는 다음과 같은 경우에 사용됨
 
 * 익명객체를 생성할때 
 * 싱글톤 클래스로 만들때
@@ -53,21 +53,21 @@ class Car(val horsePowers: Int) {
 }
 ```
 
-다음 코드는 Car class 내부에 Factory 패턴을 정의하기 위해 companion object를 사용함
+다음 코드는 Car class 내부에 Factory 패턴을 정의하기 위해 `companion object`를 사용함
 
 ```kotlin
 Car.makeCar()
 Car.Factory.makeCar()
 ```
 
- 두번째 줄의 Car.Factory.makeCar()가 정확한 표현이지만 
-코틀린에선 편의를 위해 Factory를 생략가능하며 Car.makeCar()로 호출 할 수 있음
+ 두번째 줄의 `Car.Factory.makeCar()`가 정확한 표현이지만 
+코틀린에선 편의를 위해 **Factory를 생략가능**하며 `Car.makeCar()`로 호출 할 수 있음
 
 ---
 
 #### object 를 익명객체로 사용한 예제
 
-object는 익명객체를 정의할 때도 사용됨 익명객체는 이름이 없는 객체로, 한 번만 사용되고 재사용하지 않을 때 사용함
+`object`는 익명객체를 정의할 때도 사용됨 익명객체는 이름이 없는 객체로, 한 번만 사용되고 재사용하지 않을 때 사용함
 
 ```kotlin
 interface Car {
@@ -83,7 +83,7 @@ start(object: Car {
 })
 ```
 
-다음 코드에서 start()의 인자로 전달되는 object: Car{ .. }는 익명객체임
+다음 코드에서 start()의 인자로 전달되는 `object: Car{ .. }`는 익명객체임
 
 익명객체는 Car 인터페이스를 상속받은 클래스를 객체로 생성된 것을 의미함
 
